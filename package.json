@@ -8,10 +8,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "servor src/ module/index.html 1234 --reload",
+    "dev": "servor src/ index.html 1234 --reload",
     "lint": "oxlint src/",
     "format": "oxfmt src/ ",
-    "deploy": "gh-pages -d src/modules "
+    "deploy": "gh-pages -d src/"
   },
   "devDependencies": {
     "gh-pages": "^6.3.0",
