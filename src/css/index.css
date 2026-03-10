@@ -1,4 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: darkslategrey;
   color: white;
+  font-family: system-ui, sans-serif;
+  margin: 0;
+  min-height: 100vh;
 }
