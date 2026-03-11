@@ -1,4 +1,5 @@
 import "../components/app-root.js";
+import "../components/tab-system/tab-system.js";
 
 const sum = (a, b) => a + b;
 const result = sum(10, 15);
