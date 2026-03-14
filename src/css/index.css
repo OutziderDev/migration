@@ -1,8 +1,15 @@
 :root {
   --color-primario: #fff;
   --color-muted: oklch(80% 0.00003 271.152);
+
   --color-warning: oklch(75.824% 0.15364 99.162);
+  --color-warning-muted: oklch(75.824% 0.15364 99.162 / 0.1);
+
   --color-fondo: oklch(22.213% 0.00003 271.152);
+
+  --color-success: oklch(54.475% 0.17809 142.968);
+  --color-success-muted: oklch(54.475% 0.17809 142.968 / 0.1);
+
   scroll-behavior: smooth;
 }
 
@@ -67,6 +74,31 @@ body {
       height: 1px;
       margin-right: 0.5rem;
     }
+  }
+}
+
+.calendar {
+  max-width: 60%;
+  margin: auto;
+  padding: 1.5rem;
+  /* border-bottom: 1px solid transparent;
+  border-image: linear-gradient(to right, transparent, var(--color-muted), transparent) 1; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1rem;
+
+  & > .day-card {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-success-muted);
+    border: 1px solid var(--color-success);
+    border-radius: 1rem;
+    corner-shape: squircle;
   }
 }
 
