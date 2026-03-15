@@ -1,6 +1,6 @@
 [
   {
-    "id": "2026-03-14",
+    "id": "14",
     "fecha": "14 de marzo",
     "tipo": "Rodaje suave",
     "distancia": "3.5 - 4 km",
@@ -9,7 +9,16 @@
     "notas": "Respiración nasal relajada."
   },
   {
-    "id": "2026-03-16",
+    "id": "15",
+    "fecha": "15 de marzo",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descansar los musculos, hidratarse bien, dormir temprano."
+  },
+  {
+    "id": "16",
     "fecha": "16 de marzo",
     "tipo": "Entrenamiento de ritmo de carrera",
     "distancia": "4 km",
@@ -23,7 +32,16 @@
     "notas": "Sin sprint final."
   },
   {
-    "id": "2026-03-18",
+    "id": "17",
+    "fecha": "17 de marzo",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descansar los musculos, hidratarse bien, dormir temprano."
+  },
+  {
+    "id": "18",
     "fecha": "18 de marzo",
     "tipo": "Rodaje aeróbico",
     "distancia": "4.5 km máximo",
@@ -32,7 +50,16 @@
     "notas": "Este entrenamiento debe sentirse muy fácil."
   },
   {
-    "id": "2026-03-20",
+    "id": "19",
+    "fecha": "19 de marzo",
+    "tipo": "Descanso",
+    "distancia": "0",
+    "ritmo": "0",
+    "objetivo": [],
+    "notas": "Descansar los musculos, hidratarse bien, dormir temprano."
+  },
+  {
+    "id": "20",
     "fecha": "20 de marzo",
     "tipo": "Activación pre-competencia",
     "distancia": "3 km",
@@ -45,7 +72,7 @@
     "notas": "Debe terminar con sensación de 'me quedé con ganas de más'."
   },
   {
-    "id": "2026-03-21",
+    "id": "21",
     "fecha": "21 de marzo",
     "tipo": "Activación con compañeros",
     "distancia": "3 km máximo",
@@ -54,7 +81,7 @@
     "notas": "Debe sentirse ridículamente fácil."
   },
   {
-    "id": "2026-03-22",
+    "id": "22",
     "fecha": "22 de marzo",
     "tipo": "Día de carrera",
     "distancia": "5 km",
