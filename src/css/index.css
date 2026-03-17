@@ -90,7 +90,7 @@ body {
 
   & > .day-card {
     text-decoration: none;
-    color: white;
+    color: var(--color-primario);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -121,6 +121,19 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, auto);
   }
+}
+
+.info-detail {
+  max-width: 60%;
+  margin: 2rem auto;
+  color: var(--color-primario);
+}
+
+.back {
+  /* Para boton de retorno */
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
 }
 
 /* Web Components */
