@@ -2,15 +2,12 @@ import "../components/app-root.js";
 import "../components/tab-system/tab-system.js";
 import datos from "../data/entrenos.json" with { type: "json" };
 
-/* console.log("datos:", datos.length); */
-
 document.addEventListener("DOMContentLoaded", () => {
   const navbar = document.querySelector(".calendar");
-  /* console.log("dato unico:", datos[1].id); */
 
   for (const entreno of datos) {
     const link = document.createElement("a");
-    link.href = `entrenamiento/index.html?id=${entreno.id}&tipo=la`;
+    link.href = `entrenamiento/index.html?id=${entreno.id}`;
 
     //Agregar estilos a la card
     link.classList.add("day-card");
