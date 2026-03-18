@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const dato = datos.find((info) => info.id === id);
   console.log("dato", dato);
 
-  const idSpan = document.querySelector("#id");
+  /* const idSpan = document.querySelector("#id"); */
   /* idSpan.textContent = id; */
 });

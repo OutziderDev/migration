@@ -138,6 +138,20 @@ body {
   position: fixed;
   top: 1rem;
   left: 1rem;
+  color: var(--color-primario);
+  font-size: 1.1rem;
+  border: 1px solid white;
+  border-radius: 100%;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0.6rem;
+
+  &::after {
+    content: "<-";
+  }
 }
 
 /* Web Components */
