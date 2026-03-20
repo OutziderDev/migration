@@ -1,5 +1,6 @@
 import "../components/app-root.js";
 import "../components/tab-system/tab-system.js";
+import "../components/HeroSection/HeroSection.js";
 import datos from "../data/entrenos.json" with { type: "json" };
 
 document.addEventListener("DOMContentLoaded", () => {

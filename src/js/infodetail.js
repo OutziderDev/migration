@@ -1,4 +1,5 @@
 import datos from "../data/entrenos.json" with { type: "json" };
+import "../components/HeroSection/HeroSection.js";
 
 document.addEventListener("DOMContentLoaded", () => {
   const url = new URL(window.location.href);
