@@ -96,7 +96,7 @@ body {
     align-items: center;
     padding: 1rem;
     background-color: var(--color-success-muted);
-    border: 1px solid var(--color-success);
+    border: 2px solid var(--color-success);
     border-radius: 1rem;
     corner-shape: squircle;
     transition: transform 0.2s;
@@ -184,18 +184,28 @@ body {
   top: 1rem;
   left: 1rem;
   color: var(--color-primario);
-  font-size: 1.1rem;
-  border: 1px solid white;
+  border: 2px solid white;
   border-radius: 100%;
-  text-align: center;
-  text-decoration: none;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 0.5rem 0.6rem;
+  padding: 0.3rem;
+  opacity: 0.75;
+  transition: opacity 0.1s;
+  animation: boing 1s ease-in-out infinite;
 
-  &::after {
-    content: "<-";
+  &:hover {
+    opacity: 1;
+  }
+}
+
+/* Animaciones */
+@keyframes boing {
+  0%,
+  100% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(5px, 0);
   }
 }
 
