@@ -2,19 +2,16 @@ import "../components/app-root.js";
 import "../components/tab-system/tab-system.js";
 import datos from "../data/entrenos.json" with { type: "json" };
 
-console.log("datos:", datos.length);
-
 document.addEventListener("DOMContentLoaded", () => {
   const navbar = document.querySelector(".calendar");
-  console.log("dato unico:", datos[1].id);
 
   for (const entreno of datos) {
     const link = document.createElement("a");
-    link.href = `dias/${entreno.id}`;
+    link.href = `entrenamiento/index.html?id=${entreno.id}`;
 
     //Agregar estilos a la card
     link.classList.add("day-card");
-    if (entreno.id % 2 !== 0) link.classList.add("disabled");
+    if (Number(entreno.id) % 2 !== 0) link.classList.add("disabled");
     if (entreno.id === "21") link.classList.remove("disabled");
     if (entreno.id === "22") link.classList.add("full");
 
