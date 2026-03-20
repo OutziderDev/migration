@@ -5,7 +5,7 @@
     "tipo": "Rodaje suave",
     "distancia": "3.5 - 4 km",
     "ritmo": "8:05 - 8:20",
-    "objetivo": ["soltar piernas", "comprobar rodilla", "cero fatiga"],
+    "objetivo": ["Soltar las piernas", "Checkear rodilla", "Mantener cero fatiga"],
     "notas": "Respiración nasal relajada."
   },
   {
@@ -15,12 +15,12 @@
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descansar los musculos, hidratarse bien, dormir temprano."
+    "notas": "Descansar los musculos, Hidratarse bien, Dormir temprano."
   },
   {
     "id": "16",
     "fecha": "16 de marzo",
-    "tipo": "Entrenamiento de ritmo de carrera",
+    "tipo": "Ritmo de carrera",
     "distancia": "4 km",
     "ritmo_km": [
       { "km": 1, "ritmo": "8:10" },
@@ -28,7 +28,7 @@
       { "km": 3, "ritmo": "7:50" },
       { "km": 4, "ritmo": "7:45" }
     ],
-    "objetivo": ["acostumbrar al cuerpo al ritmo objetivo de carrera"],
+    "objetivo": ["Acostumbrar al cuerpo al ritmo de carrera"],
     "notas": "Sin sprint final."
   },
   {
@@ -38,15 +38,15 @@
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descansar los musculos, hidratarse bien, dormir temprano."
+    "notas": ""
   },
   {
     "id": "18",
     "fecha": "18 de marzo",
     "tipo": "Rodaje aeróbico",
-    "distancia": "4.5 km máximo",
+    "distancia": "4.5 km (máximo)",
     "ritmo": "8:10 - 8:30",
-    "objetivo": ["mantener volumen", "recuperar", "mantener confianza"],
+    "objetivo": ["Mantener volumen", "Recuperar", "Mantener confianza"],
     "notas": "Este entrenamiento debe sentirse muy fácil."
   },
   {
@@ -56,7 +56,7 @@
     "distancia": "0",
     "ritmo": "0",
     "objetivo": [],
-    "notas": "Descansar los musculos, hidratarse bien, dormir temprano."
+    "notas": ""
   },
   {
     "id": "20",
@@ -68,16 +68,16 @@
       { "km": 2, "ritmo": "8:00" },
       { "km": 3, "ritmo": "7:45" }
     ],
-    "objetivo": ["despertar piernas", "recordar ritmo", "cero fatiga"],
+    "objetivo": ["Despertar piernas", "Recordar ritmo", "Cero fatiga"],
     "notas": "Debe terminar con sensación de 'me quedé con ganas de más'."
   },
   {
     "id": "21",
     "fecha": "21 de marzo",
     "tipo": "Activación con compañeros",
-    "distancia": "3 km máximo",
+    "distancia": "3 km (máximo)",
     "ritmo": "8:30 - 9:00",
-    "objetivo": ["trote extremadamente fácil", "movilidad", "relajar nervios", "dormir bien"],
+    "objetivo": ["Trote extremadamente fácil", "Movilidad", "Relajar nervios", "Dormir bien"],
     "notas": "Debe sentirse ridículamente fácil."
   },
   {
@@ -93,9 +93,9 @@
       { "km": 5, "ritmo": "7:30" }
     ],
     "objetivo": [
-      "ejecutar el plan de carrera",
-      "disfrutar la experiencia",
-      "aprender para futuras carreras"
+      "Ejecutar el plan de carrera",
+      "Disfrutar la experiencia",
+      "Aprender para futuras carreras"
     ],
     "notas": "¡Divertirse y a celebrar!"
   }
